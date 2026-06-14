@@ -1,6 +1,6 @@
 [
   {
-    "name": "frontend-container",
+    "name": "frontend",
     "imageUri": "721500739793.dkr.ecr.us-east-1.amazonaws.com/frontend-repo:latest"
   }
 ]
