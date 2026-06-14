@@ -1,9 +1,15 @@
-[
-  {
-    "name": "YOUR_CONTAINER_NAME",
-    "imageUri": "721500739793.dkr.ecr.us-east-1.amazonaws.com/frontend-repo:latest"
-  }
-]
+version: 0.2
+
+phases:
+  install:
+    commands:
+      - echo Installing dependencies
+
+  build:
+    commands:
+      - echo Build started
+      - echo Build completed successfully
+
 artifacts:
   files:
     - imagedefinitions.json
